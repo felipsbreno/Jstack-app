@@ -33,7 +33,7 @@ router.get('/categories/:categoryId/products', (request, response) => {
   response.send('OK');
 });
 
-router.get('/oders', listOrders);
+router.get('/orders', listOrders);
 
 router.post('/orders', (request, response) => {
   response.send('OK');
